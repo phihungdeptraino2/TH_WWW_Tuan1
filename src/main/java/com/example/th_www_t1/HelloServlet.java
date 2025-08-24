@@ -21,6 +21,7 @@ public class HelloServlet extends HttpServlet {
         out.println("<html><body>");
         out.println("<h1>" + message + "</h1>");
         out.println("</body></html>");
+        out.println("<h1>Xin chào, đây là response từ Servlet (doGet)</h1>");
     }
 
     public void destroy() {
